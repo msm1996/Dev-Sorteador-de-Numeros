@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    width: 583px;
+    height: 374px;
+    padding: auto;
+    margin: auto;
+    display: flex;
+}
+
+.caixa-sorteio {
+    padding: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+input {
+    width: 342px;
+    height: 74px;
+    border-radius: 14px;
+    margin: 20px;
+    background-color: rgb(108, 115, 123);
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+input:hover{
+    opacity: 0.6;
+}
+
+input:active{
+    opacity: 0.8;
+}
+
+::placeholder {
+    color: white;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+button{
+    background-color:#AEC346 ;
+    width: 342px;
+    height: 74px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+button:active{
+    opacity: 0.8;
+}
